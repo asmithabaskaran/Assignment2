@@ -125,7 +125,7 @@ namespace Assignment2_CT_Spring2020
                         if (i != s.Length - 1)
                             continue;
                     }
-
+                    //Reference on how to join the strings with space between each word:https://stackoverflow.com/questions/43373490/how-to-reverse-an-array-of-strings-without-changing-the-position-of-special-char
                     string1 = str + " ";// string1 stores the elements of str including whitespace
                     str = ""; // after passing str to string1, we are making str empty to hold new elements
                     for (int j = string1.Length - 1; j >= 0; j--) // initializing a for loop to reverse string1
